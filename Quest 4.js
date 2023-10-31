@@ -1,10 +1,34 @@
-console.log(prompt("Please input age"));
+console.log(prompt("Please enter age."));
 var one = (1-17);
-
 console.log("Minor");
-console.log(prompt("Minor Please enter age again"));
-Return=console.log(prompt("Minor please enter age again"));
-Return=console.log("Minor");
+
+var two = (18); 
+console.log(prompt("Welcome to my website!"));
+console.log('Neither senior nor minor');
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
 
