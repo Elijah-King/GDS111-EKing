@@ -1,8 +1,16 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0108820478779e51fdd9b251253439dec89f9bf6
 let startTTTBtnObj = document.getElementById("startTTT");
 
 startTTTBtnObj.addEventListener("click", mainScript);
 
+<<<<<<< HEAD
 function mainScript () {
+=======
+function mainscript () {
+>>>>>>> 0108820478779e51fdd9b251253439dec89f9bf6
 var ttt = [
     [" "," "," "]
     [" "," "," "]
@@ -78,4 +86,10 @@ return succeed;
 }
     
 
+<<<<<<< HEAD
     
+=======
+    
+
+
+>>>>>>> 0108820478779e51fdd9b251253439dec89f9bf6
