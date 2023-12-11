@@ -124,8 +124,9 @@ do {
     if (winnerSymbol == "X"); {
         console.log("Congradulations, you win!");
         break;
+    }
 
-    } else if (winnerSymbol == "0") {
+    } else if (winnerSymbol == "O") {
         console.log("Sorry, you lost.");
         break;
     }
@@ -134,12 +135,12 @@ do {
     let succeed = false;
     do {
         choice = getRandomInt(9);
-        succeed = placeChoice(choice,"0");
+        succeed = placeChoice(choice,"O");
     } while (!succeed);
     console.log("PC's Move:");
     displayBoard();
-    winnerSymbol = someoneWon("0");
-    if (winnerSymbol== "0") {
+    winnerSymbol = someoneWon("O");
+    if (winnerSymbol== "O") {
         console.log("Sorry, you lost.");
         break;
     } else if (winnerSymbol =="X") {
@@ -150,5 +151,6 @@ do {
 } while (hasWon == false);
 
 }
+
 
 
